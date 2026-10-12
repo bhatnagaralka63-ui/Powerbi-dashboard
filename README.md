@@ -1,152 +1,78 @@
-#📊 Super Store Sales & Profit Dashboard | Power BI
+# 📊 Super Store Sales & Profit Dashboard | Power BI
 
-📌 Project Overview
+An interactive Business Intelligence dashboard built with **Microsoft Power BI** to analyze sales performance, category profitability, customer segments, and quarterly trends. This project transforms raw Superstore data into actionable insights through KPI tracking and interactive data visualizations.
 
-The Super Store Sales & Profit Dashboard is an interactive business intelligence project developed using Microsoft Power BI to analyze sales performance, profitability, product categories, and regional sales trends.
+## 📌 Project Overview
 
-The dashboard transforms raw Superstore dataset records into meaningful visual insights, helping users understand business performance, identify profitable categories, and support data-driven decision-making.
+The Super Store Sales & Profit Dashboard provides a consolidated view of business performance across sales, products, cities, and customer segments.
 
-🎯 Project Objectives
+Designed to support data-driven decision-making, the dashboard helps identify high-performing markets, compare category-level profitability, and explore sales trends throughout the year.
+
+## 🎯 Project Objectives
 
 - Analyze overall sales, profit, and quantity sold.
-- Compare profitability across product categories.
-- Identify cities with the highest sales.
-- Understand quarterly sales trends.
-- Compare sales performance across customer segments.
-- Present business insights through interactive visualizations.
+- Evaluate profitability across product categories.
+- Identify cities with the highest sales performance.
+- Track quarterly sales trends and seasonal patterns.
+- Compare performance across customer segments.
+- Present business metrics through an interactive dashboard.
+- Translate raw data into meaningful business insights.
 
-📈 Key Performance Indicators (KPIs)
+## 📈 Key Performance Indicators
 
-Metric| Dashboard Value
-Total Sales| 175.23K
-Maximum Profit| 8.40K
-Total Quantity Sold| 22K
+| KPI | Dashboard Value |
+|---|---:|
+| Total Sales | 175.23K |
+| Maximum Profit | 8.40K |
+| Total Quantity Sold | 22K |
 
-Note: Verify the total profit KPI against the underlying dataset before publishing, as the dashboard's displayed total profit appears inconsistent with its category-level profit figures.
+> **Data validation note:** These figures reflect the values currently displayed in the dashboard. The profit KPI should be verified against the underlying dataset and the DAX measure definition before publication. Maximum profit should also be clearly distinguished from total profit.
 
-🔍 Key Dashboard Features
+## 🔍 Dashboard Features
 
-1. Sales Analysis by City
+### 1. 🏙️ Sales Analysis by City
 
-- Compares sales performance across different cities.
-- Highlights Newark as the highest-sales city in the displayed chart.
-- Helps identify strong-performing regional markets.
+- Compares sales across different cities.
+- Highlights Newark as the highest-sales city in the displayed visualization.
+- Helps identify strong-performing markets and potential regional opportunities.
 
-2. Profit Analysis by Category
+### 2. 💰 Profitability Analysis by Category
 
-The dashboard compares profitability across three major product categories:
+The dashboard compares profit across three major product categories.
 
-Category| Profit| Contribution
-Technology| 90.46K| 51.62%
-Office Supplies| 74.80K| 42.68%
-Furniture| 9.98K| 5.69%
+| Product Category | Profit | Contribution |
+|---|---:|---:|
+| Technology | 90.46K | 51.62% |
+| Office Supplies | 74.80K | 42.68% |
+| Furniture | 9.98K | 5.69% |
 
-Technology contributes the largest share of the displayed category profit, followed by Office Supplies and Furniture.
+**Key observation:** Technology accounts for the largest share of reported category profit, followed by Office Supplies. Furniture contributes the smallest share and warrants further investigation into discounts, pricing, and operating costs.
 
-3. Quarterly Sales Analysis
+*Note: Category profit figures and percentages should be reconciled with the underlying dataset before being treated as final results.*
 
-The dashboard tracks sales across all four quarters.
+### 3. 📅 Quarterly Sales Analysis
 
-Quarter| Sales
-Q1| 0.22M
-Q2| 0.27M
-Q3| 0.34M
-Q4| 0.52M
+The dashboard visualizes sales performance across all four quarters.
 
-The displayed figures show an upward trend throughout the year, with Q4 recording the highest sales.
+| Quarter | Sales |
+|---|---:|
+| Q1 | 0.22M |
+| Q2 | 0.27M |
+| Q3 | 0.34M |
+| Q4 | 0.52M |
 
-4. Customer Segment Analysis
+**Key observation:** Displayed sales increase throughout the year, with Q4 recording the highest value. This trend provides a starting point for investigating seasonality, promotional activity, and changes in customer demand.
 
-Analyzes business performance across three customer segments:
+### 4. 👥 Customer Segment Analysis
 
-- Consumer
-- Corporate
-- Home Office
+Explore sales performance across three customer segments:
 
-This comparison helps explore differences in purchasing behavior across customer groups.
+- **Consumer** — individual customer purchases.
+- **Corporate** — business customer purchases.
+- **Home Office** — purchases associated with home-office customers.
 
-5. Product-Level Insights
+This analysis helps compare segment performance and identify opportunities for more targeted sales strategies.
 
-The dashboard provides product-level details, including:
+### 5. 📦 Product-Level Analysis
 
-- Product name
-- City
-- Average profit
-- Percentage contribution to sales
-
-These details help users explore individual product performance and identify potential opportunities for business improvement.
-
-🛠️ Tools & Technologies
-
-- Microsoft Power BI — dashboard development and interactive reporting
-- Microsoft Excel — data preparation and spreadsheet analysis
-- Data Cleaning — preparing data for analysis
-- Data Modeling — organizing data for reporting
-- Data Visualization — presenting trends and comparisons
-- Business Intelligence — translating data into business insights
-
-💡 Business Insights
-
-Based on the values displayed in the dashboard:
-
-- Technology leads category profitability, contributing approximately 51.62% of the reported category profit.
-- Q4 is the strongest sales quarter, with displayed sales of 0.52M.
-- Newark leads the displayed city sales comparison, making it a useful starting point for regional analysis.
-- Furniture contributes the smallest share of category profit, suggesting an area for further investigation into pricing, discounts, and costs.
-- Customer segment analysis provides a foundation for developing more targeted sales and marketing strategies.
-
-These observations describe the displayed dashboard values and should be validated against the underlying dataset before making business decisions.
-
-📂 Project Structure
-
-Super-Store-Sales-Dashboard/
-│
-├── README.md
-├── dataset/
-│   └── superstore_dataset.csv
-├── dashboard/
-│   └── superstore_dashboard.pbix
-└── screenshots/
-    └── dashboard.png
-
-The structure above is a suggested organization. Update the filenames to match the files actually included in your repository.
-
-🚀 How to Explore the Project
-
-1. Clone or download this repository.
-2. Install Microsoft Power BI Desktop.
-3. Open the ".pbix" dashboard file.
-4. Review the KPIs, charts, and product-level analysis.
-5. Use the available filters and interactive visuals to explore different business dimensions.
-
-📚 Skills Demonstrated
-
-- Data Cleaning and Preparation
-- Exploratory Data Analysis (EDA)
-- Data Modeling
-- Data Visualization
-- Dashboard Design
-- Business Intelligence
-- Analytical Thinking
-- Business Insight Generation
-
-🔮 Future Improvements
-
-- Add year-over-year and month-over-month sales comparisons.
-- Create DAX measures for profit margin, average order value, and sales growth.
-- Introduce regional and category-level drill-through pages.
-- Analyze the relationship between discounts and profitability.
-- Add dynamic KPI cards and conditional formatting.
-- Improve data validation and measure consistency.
-
-👨‍💻 Author
-
-BCA Data Science & AI Student
-
-Interested in Data Analytics, Business Intelligence, Python, and data-driven problem-solving.
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
-
-#PowerBI #DataAnalytics #BusinessIntelligence #DataVisualization #MicrosoftPowerBI
+The
