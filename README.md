@@ -75,4 +75,105 @@ This analysis helps compare segment performance and identify opportunities for m
 
 ### 5. 📦 Product-Level Analysis
 
-The
+The dashboard provides detailed product-level information, including:
+
+- Product name
+- City
+- Average profit
+- Percentage contribution to sales
+
+These details enable users to investigate individual product performance, compare profitability, and identify products that may require further analysis.
+
+## 💡 Key Business Insights
+
+Based on the currently displayed dashboard values:
+
+- **Technology leads category profitability:** It represents approximately 51.62% of the reported category profit.
+- **Q4 is the strongest quarter:** Sales reach 0.52M in the displayed quarterly analysis.
+- **Newark leads the displayed city comparison:** The city stands out as a potential focus for regional performance analysis.
+- **Furniture has the smallest reported profit contribution:** Reviewing discounts, pricing, and costs could help explain its lower contribution.
+- **Customer segments offer opportunities for targeted analysis:** Comparing purchasing patterns can help inform marketing and sales decisions.
+
+These findings are preliminary observations from the dashboard. They should be validated against the source data before being used to make business decisions.
+
+## 🛠️ Tools & Technologies
+
+| Technology | Purpose |
+|---|---|
+| Microsoft Power BI | Interactive dashboard development and reporting |
+| Microsoft Excel | Data inspection and preparation |
+| Data Cleaning | Improving data quality and consistency |
+| Data Modeling | Organizing data for analytical reporting |
+| Data Visualization | Communicating trends and comparisons |
+| Business Intelligence | Converting business data into insights |
+
+## 📂 Project Structure
+
+```text
+Super-Store-Sales-Dashboard/
+│
+├── README.md
+├── dataset/
+│   └── superstore_dataset.csv
+├── dashboard/
+│   └── superstore_dashboard.pbix
+└── screenshots/
+    └── dashboard.png
+```
+
+*The structure above is illustrative. Update the filenames and folders to match the actual contents of your repository.*
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Microsoft Power BI Desktop
+- The source Superstore dataset, if required by the dashboard
+
+### Steps to Explore
+
+1. Clone or download this repository.
+2. Open the `.pbix` file using Power BI Desktop.
+3. If prompted, configure the dataset source path.
+4. Refresh the data if required.
+5. Explore the KPI cards, charts, category comparisons, and customer segment analysis.
+6. Use the dashboard's available filters and interactive visuals to investigate business performance.
+
+## 🧠 Skills Demonstrated
+
+- Data Cleaning and Preparation
+- Exploratory Data Analysis (EDA)
+- Data Modeling
+- Data Visualization
+- Dashboard Development
+- Business Intelligence Reporting
+- KPI Analysis
+- Trend and Comparative Analysis
+- Business Insight Generation
+
+## 🔮 Future Enhancements
+
+- Add month-over-month and year-over-year sales comparisons.
+- Develop DAX measures for total profit, profit margin, average order value, and sales growth.
+- Introduce drill-through pages for regional and category-level analysis.
+- Analyze the relationship between discounts and profitability.
+- Add dynamic KPI cards and conditional formatting.
+- Improve data validation and consistency across dashboard metrics.
+- Include additional insights into customer behavior and product performance.
+
+## 👨‍💻 Author
+
+**Rudraksh Bhatnagar**  
+BCA Student • Data Science & AI
+
+Interested in Data Analytics, Business Intelligence, Python, and data-driven problem-solving.
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a star!
+
+---
+
+**Technologies:** Microsoft Power BI · Excel · Data Analytics · Business Intelligence
+
+#PowerBI #DataAnalytics #BusinessIntelligence #DataVisualization #DashboardDevelopment
