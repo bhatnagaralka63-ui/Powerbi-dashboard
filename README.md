@@ -1,4 +1,4 @@
-#📊 Super Store Sales & Profit Dashboard | Power BI
+📊 Super Store Sales & Profit Dashboard | Power BI
 
 📌 Project Overview
 
