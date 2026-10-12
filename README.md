@@ -18,14 +18,16 @@ Designed to support data-driven decision-making, the dashboard helps identify hi
 - Present business metrics through an interactive dashboard.
 - Translate raw data into meaningful business insights.
 
-## 📈 Key Performance Indicators
+## 📈 Key Performance Indicators (KPIs)
 
-| KPI | Dashboard Value |
+| Metric | Value |
 |---|---:|
-| Total Sales | 175.23K |
-| Maximum Profit | 8.40K |
-| Total Quantity Sold | 22K |
+| Total Sales | 1.34M |
+| Total Profit | 175.23K |
+| Maximum Single-Record Profit | 8.40K |
+| Total Quantity Sold | 22.31K |
 
+The dashboard summarizes overall business performance through sales, profitability, and quantity metrics. All KPI values should use consistent aggregation definitions and formatting.
 > **Data validation note:** These figures reflect the values currently displayed in the dashboard. The profit KPI should be verified against the underlying dataset and the DAX measure definition before publication. Maximum profit should also be clearly distinguished from total profit.
 
 ## 🔍 Dashboard Features
